@@ -1,0 +1,13 @@
+Mongo{
+    type: Tipos,
+    lowercase: hacer minusculas,
+    uppercase: hacer mayusculas,
+    tim: para cortar espacios,
+    enum: arreglo de ciertasa opciones,
+    minlength: caracteres permitidos,
+    maslength: caracteres permitidos,
+
+    middleware:{
+        pre: antes de guardar
+    }
+}
