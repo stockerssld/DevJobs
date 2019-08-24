@@ -11,3 +11,10 @@ Mongo{
         pre: antes de guardar
     }
 }
+
+Trix{
+    facil uso
+    copiar css y js
+    dentro de la carpeta css crear asstes/trix/
+    y pegar las imagenes
+}
