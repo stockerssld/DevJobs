@@ -45,7 +45,7 @@ const vacantesSchema = new mongoose.Schema({
 
 vacantesSchema.pre('save', function(next){
     const url= slug(this.titulo)
-    this.url = `${url}-${shorti.generate()}`
+    this.url = `${url}-${shortid.generate()}`
     
     next()
 })

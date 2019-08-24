@@ -5,7 +5,8 @@ const vacantesController = require('../controllers/vacantesController.js')
 
 module.exports=()=>{
         router.get('/', homeController.mostrarTrabajos)
-
+        router.post('/vacantes/nueva', vacantesController.agregarVacante)
         router.get('/vacantes/nueva', vacantesController.formularioNuevaVacante)
+
     return router
 }

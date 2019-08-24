@@ -10,6 +10,13 @@ Mongo{
     middleware:{
         pre: antes de guardar
     }
+
+    Constructiong Doocuments
+    crear objetos{
+        insert similar{
+            .create
+        }
+    }
 }
 
 Trix{
