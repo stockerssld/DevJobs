@@ -7,6 +7,7 @@ module.exports=()=>{
         router.get('/', homeController.mostrarTrabajos)
         router.post('/vacantes/nueva', vacantesController.agregarVacante)
         router.get('/vacantes/nueva', vacantesController.formularioNuevaVacante)
-
+        
+        router.get('/vacantes/:url', vacantesController.mostrarVacante)
     return router
 }
